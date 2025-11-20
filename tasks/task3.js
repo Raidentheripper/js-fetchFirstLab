@@ -28,7 +28,6 @@ function updateUser(id, updatedData) {
         });
 }
 
-// ✔️ Тепер console.log дочекається завершення запиту
 updateUser(1, { name: 'New Name' })
   .then(result => console.log(result));
 
