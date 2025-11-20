@@ -29,8 +29,6 @@ function createUser(user) {
           return new Error(`Error: ${error.message}`);
       })
 }
-
-// ✔️ console.log тепер чекає завершення запиту
 createUser({ name: "Sam", email: "fjsnfkjns2342@gmail.com" })
   .then(result => console.log(result));
 
