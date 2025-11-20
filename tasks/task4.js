@@ -20,7 +20,6 @@ function deleteUser(id) {
         });
 }
 
-// ✔️ Тепер console.log дочекається виконання запиту
 deleteUser(1).then(result => console.log(result));
 
 // Експортуємо функцію
